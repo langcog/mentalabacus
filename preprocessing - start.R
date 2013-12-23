@@ -1,0 +1,31 @@
+rm(list=ls())
+source("~/Projects/R/mcf.useful.R")
+
+## MERGE TOGETHER PAPER RECORDS
+data2010 <- read.csv("~/Projects/India Abacus/ZENITH/full analysis/data/paper expts/2010_PaperTaskData_Final.csv")
+data2011 <- read.csv("~/Projects/India Abacus/ZENITH/full analysis/data/paper expts/2011_PaperTaskData_Final.csv")
+data2012 <- read.csv("~/Projects/India Abacus/ZENITH/full analysis/data/paper expts/2012_PaperTaskData_Final.csv")
+data2013 <- read.csv("~/Projects/India Abacus/ZENITH/full analysis/data/paper expts/2013_PaperTaskData_Final.csv")
+d <- rbind.fill(data2010,data2011,data2012,data2013)
+d$year <- d$year - 2010 ## set year to 0
+
+## MERGE IN DEMOGRAPHICS
+demo <- read.csv("~/Projects/India Abacus/ZENITH/full analysis/data/zenith demographics.csv")
+d <- merge(d,demo)
+
+## MERGE IN COMPUTER DATA
+cdata <- read.csv("~/Projects/India Abacus/ZENITH/full analysis/data/computer/zenith all computer tasks.csv")
+cdata$year <- cdata$year - 2010 ## set year to 0
+d <- merge(d,cdata,by.x = c("subnum","year"),by.y = c("subnum","year"))
+
+## MERGE IN GRADES
+grades2010 <- read.csv("~/Projects/India Abacus/ZENITH/full analysis/data/grades/grades 2010.csv")
+grades2011 <- read.csv("~/Projects/India Abacus/ZENITH/full analysis/data/grades/grades 2011.csv")
+grades2012 <- read.csv("~/Projects/India Abacus/ZENITH/full analysis/data/grades/grades 2012.csv")
+grades2013 <- read.csv("~/Projects/India Abacus/ZENITH/full analysis/data/grades/grades 2013.csv")
+g <- rbind.fill(grades2010,grades2011,grades2012,grades2013)
+g$year <- g$year - 2010 ## set year to 0
+d <- merge(d,g,by.x = c("subnum","year"), by.y = c("subnum","year"))
+
+## write out
+write.csv(d,"~/Projects/India Abacus/ZENITH/full analysis/data/zenith all data.csv",row.names=FALSE)

@@ -1,5 +1,5 @@
 rm(list=ls())
-source("~/Projects/R/mcf.useful.R")
+source("~/Projects/R/Ranalysis/useful.R")
 
 cohen.d <- function (x,xdata) {
   xd <- xdata[x,]
@@ -47,4 +47,35 @@ for (y in 0:3) {
                     d$arith[d$year==y],
                     d$wiat[d$year==y])))
 }
+
+
+### pretty print
+library(Hmisc)
+library(xtable)
+
+tasks <- c("arith","placeval","wiat","woodcock",
+           "spatialwm","verbalwm","mental.rot","ans")
+
+for (t in tasks) {
+  summaries <- data.frame(row.names=NULL)
+  for (y in 0:3) {
+    summaries <- rbind(summaries,
+                       data.frame(year=y,
+                                  mean_control=na.mean(d[d$year==y&d$abacus==0,t]),
+                                  mean_MA=na.mean(d[d$year==y&d$abacus==1,t]),
+                                  median_control=na.median(d[d$year==y&d$abacus==0,t]),
+                                  median_MA=na.median(d[d$year==y&d$abacus==1,t]),
+                                  SD_control=na.sd(d[d$year==y&d$abacus==0,t]),
+                                  SD_MA=na.sd(d[d$year==y&d$abacus==1,t])))
+  }
+  print(xtable(summaries,
+               caption=paste("Descriptive statistics for",t),
+               label=paste("tab:",t,sep="")),        
+        include.rownames=FALSE)
+}
+                                
+    
+
+
+xtable(xtabs(arith ~ year + abacus.f,data=d))
       

@@ -1,0 +1,118 @@
+;; RefTeX parse info file
+;; File: /Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex
+;; User: mcfrank (Michael Frank)
+
+(set reftex-docstruct-symbol '(
+
+
+(xr nil "\\\\\\\\\\\\")
+
+(index-tags)
+
+(is-multi nil)
+
+(bibview-cache)
+
+(master-dir . "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/")
+
+(label-numbers)
+
+(bof "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex")
+
+(toc "toc" "    1 Tasks" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 2 "1" "\\section{Tasks}" 532)
+
+(toc "toc" "      1.1 Computerized Tasks" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 3 "1.1" "\\subsection{Computerized Tasks}" 549)
+
+(toc "toc" "        1.1.1 Number Comparison" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 4 "1.1.1" "\\subsubsection{Number Comparison}" 2119)
+
+(toc "toc" "        1.1.2 Spatial Working Memory" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 4 "1.1.2" "\\subsubsection{Spatial Working Memory}" 4440)
+
+(toc "toc" "        1.1.3 Verbal Working Memory" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 4 "1.1.3" "\\subsubsection{Verbal Working Memory}" 6536)
+
+(toc "toc" "      1.2 Paper and Pencil Tasks" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 3 "1.2" "\\subsection{Paper and Pencil Tasks}" 7958)
+
+(toc "toc" "        1.2.1 Place Value" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 4 "1.2.1" "\\subsubsection{Place Value}" 9085)
+
+(toc "toc" "        1.2.2 Arithmetic" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 4 "1.2.2" "\\subsubsection{Arithmetic}" 11054)
+
+(toc "toc" "        1.2.3 Ravens Progressive Matrices" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 4 "1.2.3" "\\subsubsection{Ravens Progressive Matrices}" 12433)
+
+(toc "toc" "        1.2.4 WJ-III" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 4 "1.2.4" "\\subsubsection{WJ-III}" 13115)
+
+(toc "toc" "        1.2.5 WIAT-III" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 4 "1.2.5" "\\subsubsection{WIAT-III}" 13444)
+
+(toc "toc" "        1.2.6 Mental Rotation" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 4 "1.2.6" "\\subsubsection{Mental Rotation}" 13830)
+
+(toc "toc" "        1.2.7 Growth Mindset Questionnaire" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 4 "1.2.7" "\\subsubsection{Growth Mindset Questionnaire}" 15163)
+
+(toc "toc" "        1.2.8 Math Anxiety Questionnaire" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 4 "1.2.8" "\\subsubsection{Math Anxiety Questionnaire}" 17046)
+
+(toc "toc" "      1.3 Abacus-Only Tasks" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 3 "1.3" "\\subsection{Abacus-Only Tasks}" 18487)
+
+(toc "toc" "        1.3.1 Abacus Decoding" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 4 "1.3.1" "\\subsubsection{Abacus Decoding}" 18951)
+
+(toc "toc" "        1.3.2 Abacus-Only Sums" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 4 "1.3.2" "\\subsubsection{Abacus-Only Sums}" 20574)
+
+(toc "toc" "        1.3.3 Abacus-Only Arithmetic" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 4 "1.3.3" "\\subsubsection{Abacus-Only Arithmetic}" 21359)
+
+(toc "toc" "      1.4 Other (Excluded) Tasks" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 3 "1.4" "\\subsection{Other (Excluded) Tasks}" 21913)
+
+(toc "toc" "        1.4.1 Commutativity" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 4 "1.4.1" "\\subsubsection{Commutativity}" 22187)
+
+(toc "toc" "        1.4.2 Sums Task" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 4 "1.4.2" "\\subsubsection{Sums Task}" 22854)
+
+(toc "toc" "        1.4.3 Geometry" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 4 "1.4.3" "\\subsubsection{Geometry}" 23453)
+
+(toc "toc" "        1.4.4 Number Estimation" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 4 "1.4.4" "\\subsubsection{Number Estimation}" 24041)
+
+(toc "toc" "    2 Data Management" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 2 "2" "\\section{Data Management}" 24455)
+
+(toc "toc" "      2.1 Exclusions" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 3 "2.1" "\\subsection{Exclusions}" 24482)
+
+(toc "toc" "      2.2 Data Entry" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 3 "2.2" "\\subsection{Data Entry}" 25004)
+
+(toc "toc" "      2.3 Scoring" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 3 "2.3" "\\subsection{Scoring}" 25480)
+
+(toc "toc" "    3 Descriptive Statistics" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 2 "3" "\\section{Descriptive Statistics}" 25775)
+
+("tab:arith" "t" "Descriptive statistics for arithmetic (proportion correct)." "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil)
+
+("tab:placeval" "t" "Descriptive statistics for place value (proportion correct)." "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil)
+
+("tab:wiat" "t" "Descriptive statistics for WIAT (proportion correct)." "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil)
+
+("tab:woodcock" "t" "Descriptive statistics for WJ-III (proportion correct)." "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil)
+
+("tab:spatialwm" "t" "Descriptive statistics for spatial working memory (number of items)." "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil)
+
+("tab:verbalwm" "t" "Descriptive statistics for verbal working memory (number of items)." "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil)
+
+("tab:mental.rot" "t" "Descriptive statistics for mental rotation task (proportion correct)." "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil)
+
+("tab:ans" "t" "Descriptive statistics for number comparison (Weber fractions)." "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil)
+
+(toc "toc" "    4 Data Analysis" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 2 "4" "\\section{Data Analysis}" 30700)
+
+(toc "toc" "      4.1 Longitudinal Model Specification" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 3 "4.1" "\\subsection{Longitudinal Model Specification}" 30725)
+
+(toc "toc" "      4.2 Mediation Model Specification" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 3 "4.2" "\\subsection{Mediation Model Specification}" 32145)
+
+(toc "toc" "      4.3 Additional Analysis of Grade Data" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 3 "4.3" "\\subsection{Additional Analysis of Grade Data}" 33542)
+
+("fig:grades" "f" "Academic outcome measures for the two intervention conditions, plotted by study year. Error bars sho" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil)
+
+(toc "toc" "      4.4 Additional Mediation Analysis" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 3 "4.4" "\\subsection{Additional Mediation Analysis}" 35580)
+
+("fig:wj3swm" "f" "WJ-III arithmetic performance split by condition and median performance on the Spatial Working Memor" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil)
+
+("fig:wj3ans" "f" "WJ-III arithmetic performance split by condition and median performance on the Number Comparison mea" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil)
+
+(toc "toc" "      4.5 Additional Analysis of Abacus-Only Tasks" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil 3 "4.5" "\\subsection{Additional Analysis of Abacus-Only Tasks}" 37158)
+
+("fig:wj3ans" "f" "WJ-III arithmetic performance split by condition and median performance on the Number Comparison mea" "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex" nil)
+
+(bib "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/sibib.bib")
+
+(eof "/Users/mcfrank/Projects/India Abacus/ZENITH/mentalabacus/supplemental/si.tex")
+))
+

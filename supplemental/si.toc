@@ -1,0 +1,35 @@
+\contentsline {section}{\numberline {1}Tasks}{2}
+\contentsline {subsection}{\numberline {1.1}Computerized Tasks}{2}
+\contentsline {subsubsection}{\numberline {1.1.1}Number Comparison}{2}
+\contentsline {subsubsection}{\numberline {1.1.2}Spatial Working Memory}{3}
+\contentsline {subsubsection}{\numberline {1.1.3}Verbal Working Memory}{3}
+\contentsline {subsection}{\numberline {1.2}Paper and Pencil Tasks}{3}
+\contentsline {subsubsection}{\numberline {1.2.1}Place Value}{4}
+\contentsline {subsubsection}{\numberline {1.2.2}Arithmetic}{4}
+\contentsline {subsubsection}{\numberline {1.2.3}Ravens Progressive Matrices}{5}
+\contentsline {subsubsection}{\numberline {1.2.4}WJ-III}{5}
+\contentsline {subsubsection}{\numberline {1.2.5}WIAT-III}{5}
+\contentsline {subsubsection}{\numberline {1.2.6}Mental Rotation}{5}
+\contentsline {subsubsection}{\numberline {1.2.7}Growth Mindset Questionnaire}{6}
+\contentsline {subsubsection}{\numberline {1.2.8}Math Anxiety Questionnaire}{6}
+\contentsline {subsection}{\numberline {1.3}Abacus-Only Tasks}{6}
+\contentsline {subsubsection}{\numberline {1.3.1}Abacus Decoding}{7}
+\contentsline {subsubsection}{\numberline {1.3.2}Abacus-Only Sums}{7}
+\contentsline {subsubsection}{\numberline {1.3.3}Abacus-Only Arithmetic}{7}
+\contentsline {subsection}{\numberline {1.4}Other (Excluded) Tasks}{7}
+\contentsline {subsubsection}{\numberline {1.4.1}Commutativity}{8}
+\contentsline {subsubsection}{\numberline {1.4.2}Sums Task}{8}
+\contentsline {subsubsection}{\numberline {1.4.3}Geometry}{8}
+\contentsline {subsubsection}{\numberline {1.4.4}Number Estimation}{8}
+\contentsline {section}{\numberline {2}Data Management}{8}
+\contentsline {subsection}{\numberline {2.1}Exclusions}{8}
+\contentsline {subsection}{\numberline {2.2}Data Entry}{8}
+\contentsline {subsection}{\numberline {2.3}Scoring}{9}
+\contentsline {section}{\numberline {3}Descriptive Statistics}{9}
+\contentsline {section}{\numberline {4}Data Analysis}{10}
+\contentsline {subsection}{\numberline {4.1}Longitudinal Model Specification}{10}
+\contentsline {subsection}{\numberline {4.2}Mediation Model Specification}{11}
+\contentsline {subsection}{\numberline {4.3}Additional Analysis of Grade Data}{11}
+\contentsline {subsection}{\numberline {4.4}Additional Analysis of Abacus-Only Tasks}{12}
+\contentsline {subsection}{\numberline {4.5}Additional Mediation Analysis}{12}
+\contentsline {section}{References}{15}

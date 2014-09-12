@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/MacPorts 2013_5) (format=pdflatex 2014.3.24)  12 SEP 2014 13:52
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/MacPorts 2013_5) (format=pdflatex 2014.3.24)  12 SEP 2014 15:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -349,47 +349,54 @@ Package pdftex.def Info: figures/swm.pdf used on input line 485.
 File: figures/math1_class.pdf Graphic file (type pdf)
 
 <use figures/math1_class.pdf>
-Package pdftex.def Info: figures/math1_class.pdf used on input line 502.
+Package pdftex.def Info: figures/math1_class.pdf used on input line 499.
 (pdftex.def)             Requested size: 397.48499pt x 397.49504pt.
  [17 <./figures/swm.pdf>]
 <figures/math2_class.pdf, id=5560, 505.89pt x 505.89pt>
 File: figures/math2_class.pdf Graphic file (type pdf)
 
 <use figures/math2_class.pdf>
-Package pdftex.def Info: figures/math2_class.pdf used on input line 510.
+Package pdftex.def Info: figures/math2_class.pdf used on input line 507.
 (pdftex.def)             Requested size: 397.48499pt x 397.49504pt.
  [18 <./figures/math1_class.pdf>]
 <figures/cog1_class.pdf, id=5676, 505.89pt x 505.89pt>
 File: figures/cog1_class.pdf Graphic file (type pdf)
 
 <use figures/cog1_class.pdf>
-Package pdftex.def Info: figures/cog1_class.pdf used on input line 519.
+Package pdftex.def Info: figures/cog1_class.pdf used on input line 516.
 (pdftex.def)             Requested size: 397.48499pt x 397.49504pt.
  [19 <./figures/math2_class.pdf>]
 <figures/cog2_class.pdf, id=5785, 505.89pt x 505.89pt>
 File: figures/cog2_class.pdf Graphic file (type pdf)
 
 <use figures/cog2_class.pdf>
-Package pdftex.def Info: figures/cog2_class.pdf used on input line 528.
+Package pdftex.def Info: figures/cog2_class.pdf used on input line 525.
 (pdftex.def)             Requested size: 397.48499pt x 397.49504pt.
  [20 <./figures/cog1_class.pdf>]
-<figures/SDs.pdf, id=5885, 409.42097pt x 253.76256pt>
+<figures/abacus_class.pdf, id=5885, 402.88077pt x 432.96594pt>
+File: figures/abacus_class.pdf Graphic file (type pdf)
+
+<use figures/abacus_class.pdf>
+Package pdftex.def Info: figures/abacus_class.pdf used on input line 537.
+(pdftex.def)             Requested size: 325.215pt x 349.4981pt.
+ [21 <./figures/cog2_class.pdf>]
+<figures/SDs.pdf, id=5992, 409.42097pt x 253.76256pt>
 File: figures/SDs.pdf Graphic file (type pdf)
  <use figures/SDs.pdf>
-Package pdftex.def Info: figures/SDs.pdf used on input line 540.
+Package pdftex.def Info: figures/SDs.pdf used on input line 552.
 (pdftex.def)             Requested size: 325.215pt x 201.57764pt.
 
-[21 <./figures/cog2_class.pdf>] [22 <./figures/SDs.pdf>] (./si.bbl)
+[22 <./figures/abacus_class.pdf>] [23 <./figures/SDs.pdf>] (./si.bbl)
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ƒ in font cmr10!
- [23]
+ [24]
 (./si.aux) ) 
 Here is how much of TeX's memory you used:
- 3184 strings out of 495035
- 43316 string characters out of 6181625
- 119614 words of memory out of 5000000
- 6342 multiletter control sequences out of 15000+600000
+ 3190 strings out of 495035
+ 43465 string characters out of 6181625
+ 119624 words of memory out of 5000000
+ 6347 multiletter control sequences out of 15000+600000
  10223 words of font info for 37 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,9n,28p,958b,258s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -404,10 +411,10 @@ live/fonts/type1/public/amsfonts/cm/cmr8.pfb></opt/local/share/texmf-texlive/fo
 nts/type1/public/amsfonts/cm/cmsy10.pfb></opt/local/share/texmf-texlive/fonts/t
 ype1/public/amsfonts/cm/cmti10.pfb></opt/local/share/texmf-texlive/fonts/type1/
 public/amsfonts/cm/cmtt10.pfb>
-Output written on si.pdf (23 pages, 2405201 bytes).
+Output written on si.pdf (24 pages, 2534054 bytes).
 PDF statistics:
- 6073 PDF objects out of 6186 (max. 8388607)
- 3160 compressed objects within 32 object streams
+ 6254 PDF objects out of 7423 (max. 8388607)
+ 3253 compressed objects within 33 object streams
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

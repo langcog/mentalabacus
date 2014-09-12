@@ -405,7 +405,7 @@ and a three-way interaction model,
 
 \subsection{Additional Analysis of Grade Data}
 
-\begin{figure}[t]
+\begin{figure}[H]
 \begin{center}
 \includegraphics[width=6.5in]{figures/grades.pdf}
 \end{center}
@@ -421,7 +421,7 @@ We observed no reliable year by condition interactions in the longitudinal model
  
 \subsection{Additional Analysis of Abacus-Only Tasks}
 
-\begin{figure}
+\begin{figure}[H]
 \begin{center}
 \includegraphics[width=4.5in]{figures/abacus_by_swm.pdf}
 \end{center}
@@ -435,9 +435,8 @@ Performance on the Abacus Only tasks is shown in Figure \ref{fig:abacusonly}. Pe
 
 We show two additional mediation analyses described in the main text. The first is the effect of spatial working memory as a mediator of performance on the WJ-III arithmetic task (Figure~\ref{fig:wj3swm}). Children in the MA condition who performed above the median on the spatial working memory task in Year 0 subsequently showed stronger growth in their WJ-III performance. 
 
-The second effect is that of approximate number acuity (Weber fraction, as measured by the number comparison task) on WJ-III performance. This effect is shown in Figure \ref{fig:wj3ans}. Those children in the control group with higher than median Weber fractions in Year 0 subsequently showed worse performance on the WJ-III (recall that lower Weber fractions indicate better acuity). 
 
-\begin{figure}
+\begin{figure}[H]
 \begin{center}
 \includegraphics[width=4.5in]{figures/wj_by_swm.pdf}
 \end{center}
@@ -445,13 +444,107 @@ The second effect is that of approximate number acuity (Weber fraction, as measu
 \label{fig:wj3swm}
 \end{figure}
 
-\begin{figure}
+The second effect is that of approximate number acuity (Weber fraction, as measured by the number comparison task) on WJ-III performance. This effect is shown in Figure \ref{fig:wj3ans}. Those children in the control group with higher than median Weber fractions in Year 0 subsequently showed worse performance on the WJ-III (recall that lower Weber fractions indicate better acuity). 
+
+\begin{figure}[H]
 \begin{center}
 \includegraphics[width=4.5in]{figures/wj_by_ans.pdf}
 \end{center}
 \caption{WJ-III arithmetic performance split by condition and median performance on the Number Comparison measure, plotted by study year. Note that a larger Weber fraction indicates lower numerical acuity. Error bars show 95\% confidence intervals computed by non-parametric bootstrap.}
 \label{fig:wj3ans}
 \end{figure}
+
+In addition, we show the effect of splitting by verbal working memory on arithmetic in Figure \ref{fig:arithvwm}. Although there are substantial differences in arithmetic performance predicted by Year 0 verbal working memory, there is no interaction with intervention condition (compare to Figure 4 in the main text). This result is borne out by both the linear and quadratic growth models, which show no interaction of intervention condition and verbal working memory ($p$s $> .52$).
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=4.5in]{figures/wj_by_ans.pdf}
+\end{center}
+\caption{WJ-III arithmetic performance split by condition and median performance on the Number Comparison measure, plotted by study year. Note that a larger Weber fraction indicates lower numerical acuity. Error bars show 95\% confidence intervals computed by non-parametric bootstrap.}
+\label{fig:arithvwm}
+\end{figure}
+
+\subsection{Additional Analysis of Spatial Working Memory Data}
+
+In this section, we describe analyses addressing whether we saw a ceiling effect in our spatial working memory task; had there been such a ceiling effect, we might have been unable to detect transfer effects. Figure \ref{fig:densities} shows the distributions of spatial working memory scores; there is no visual suggestion of right-censoring of these distributions. 
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=6.5in]{figures/swmdensities.pdf}
+\end{center}
+\caption{The distribution of spatial working memory scores across intervention groups and years. Histograms show the empirical probabilities, while lines show a smoothed density estimate.}
+\label{fig:densities}
+\end{figure}
+
+A second analysis suggest that the range of spatial working memory scores we observed was low (congruent with the low socioeconomic status of our participants) but that we nevertheless saw substantial development with age as well as some quite high (adult-level) performances. As part of separate studies, we administered the same spatial working memory task to two other groups: a group of high socioeconomic status children tested at a mental abacus after-school program in the same city as our intervention site (N=67), and a group of college-age adults in the United States (N=20). 
+
+Data from all three groups are shown in Figure \ref{fig:swm}. Clearly, there is no ceiling effect in the Intervention group Spatial Working Memory data. Mean scores for both other groups are substantially higher than those for the current study, and there are strong indications of developmental trends in both groups of children, suggesting that the children in our study would be likely to improve substantially on this measure. 
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=4.5in]{figures/swm.pdf}
+\end{center}
+\caption{Spatial working memory scores plotted by age for three populations. Each point represents an individual participant. Lines show best fitting linear regression with 95\% confidence intervals. Adult data are plotted at age 21, as individual ages were not available.}
+\label{fig:swm}
+\end{figure}
+
+
+\subsection{Additional Analysis of Classroom Effects}
+
+As described above, there were three classrooms that participated in our intervention. In the first classroom (labeled A for convenience), all students received MA instruction. In a second class (B), students were split between MA and control instruction. In the third class (C), all students received control instruction. Four students are excluded for this analysis due to having changed classes or uncertainty about which classroom they had been placed into during one or more years of the study. In Figures \ref{fig:mathclass1} -- \ref{fig:cogclass2} we show math and cognitive measures replotted by class and intervention group. Qualitatively, it appears that control students in class B (who had MA students in their classroom) showed some benefits on several of the measures, especially arithmetic and WJ-III. 
+
+To quantify these trends, we used the same longitudinal growth models described above; for simplicity we examine the linear and quadratic models only. We defined a model that included interactions between year, intervention condition, and classroom, and conducted likelihood ratio tests against a model that only included main effects of classroom (to control for general baseline differences between classes). No classroom effects reached significance in the linear or quadratic growth models. 
+
+In sum: Control children in the mixed MA/control classroom showed numerically-increased performance on some math measures. Since these students were sharing regular math instruction with a group of MA children, this effect might be driven by the presence of MA children leading to spillover effects in classroom instruction (whether because the overall level of instruction was higher or due to other mechanisms of peer influence).
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=5.5in]{figures/math1_class.pdf}
+\end{center}
+\caption{Performance on arithmetic and WJ-III, split by intervention group and class. Class A received MA instruction; Class B was split between MA and control; Class C received control instruction. Error bars show 95\% confidence intervals computed by non-parametric bootstrap.}
+\label{fig:mathclass1}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=5.5in]{figures/math2_class.pdf}
+\end{center}
+\caption{Performance on Place Value and WIAT, split by intervention group and class. Class A received MA instruction; Class B was split between MA and control; Class C received control instruction. Error bars show 95\% confidence intervals computed by non-parametric bootstrap.}
+\label{fig:mathclass2}
+\end{figure}
+
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=5.5in]{figures/cog1_class.pdf}
+\end{center}
+\caption{Performance on spatial and verbal working memory, split by intervention group and class. Class A received MA instruction; Class B was split between MA and control; Class C received control instruction. Error bars show 95\% confidence intervals computed by non-parametric bootstrap.}
+\label{fig:cogclass1}
+\end{figure}
+
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=5.5in]{figures/cog2_class.pdf}
+\end{center}
+\caption{Performance on ANS and mental rotation, split by intervention group and class. Class A received MA instruction; Class B was split between MA and control; Class C received control instruction. Error bars show 95\% confidence intervals computed by non-parametric bootstrap.}
+\label{fig:cogclass2}
+\end{figure}
+
+\subsection{Task Variability}
+
+We speculate that one reason our arithmetic measure might have shown larger intervention effects is because it is a more sensitive measure, showing more variability in performance across students. In particular, the standardized tests---the WJ-III especially---feature relatively few items that probe content learned in early grade school. Thus, they may be less able to capture variability among young children than our own task by virtue of how they are designed. For example, considering 1- to 3-digit addition problems involving positive numbers, the WIAT has 8 and WJ has 6. For subtraction problems, the WIAT has 8 and the WJ has 6. Fully 1/3 of WJ questions involve knowledge of algebra, exponents, trigonometry, and other advanced material. The WIAT, while less advanced, still has several questions concerning, e.g., adding fractions with mixed denominators. 
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=4.5in]{figures/SDs.pdf}
+\end{center}
+\caption{Standard deviations for the three arithmetic measures, plotted by year. Each measure was normalized into the range 0--1.}
+\label{fig:sds}
+\end{figure}
+
+To support this intuition, we show in Figure \ref{fig:sds} an analysis of the standard deviation of participants' performance on each of the three math measures that include arithmetic problems (Arithmetic, WIAT, and WJ-III). All scores were in the 0 -- 1 interval. This analysis confirms that the arithmetic measure did show the largest standard deviation (and this standard deviation remained highest even within the control group alone).  WIAT, which includes more arithmetic problems, was next highest, and WJ-III was lowest. 
+
 
 
 \newpage

@@ -1,6 +1,6 @@
 rm(list=ls())
 source("~/Projects/R/mcf.useful.R")
-d <- read.csv("~/Projects/India Abacus/ZENITH/zenith full analysis/data/zenith all data complete cases.csv")
+d <- read.csv("~/Projects/Abacus/ZENITH/zenith full analysis/data/zenith all data complete cases.csv")
 
 tasks <- c("arith","woodcock","wiat","placeval")
 splits <- c("spatialwm","verbalwm","ans","mental.rot")
@@ -38,7 +38,5 @@ for (t in tasks) {
                data=md)
     print(paste("*********",t,s,"quadratic median **********"))
     print(anova(m1,m2))
-
-    
   }
 }

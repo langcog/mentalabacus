@@ -29,7 +29,10 @@
 \contentsline {section}{\numberline {4}Data Analysis}{10}
 \contentsline {subsection}{\numberline {4.1}Longitudinal Model Specification}{10}
 \contentsline {subsection}{\numberline {4.2}Mediation Model Specification}{11}
-\contentsline {subsection}{\numberline {4.3}Additional Analysis of Grade Data}{11}
-\contentsline {subsection}{\numberline {4.4}Additional Analysis of Abacus-Only Tasks}{12}
-\contentsline {subsection}{\numberline {4.5}Additional Mediation Analysis}{12}
-\contentsline {section}{References}{15}
+\contentsline {subsection}{\numberline {4.3}Additional Analysis of Grade Data}{12}
+\contentsline {subsection}{\numberline {4.4}Additional Analysis of Abacus-Only Tasks}{13}
+\contentsline {subsection}{\numberline {4.5}Additional Mediation Analysis}{13}
+\contentsline {subsection}{\numberline {4.6}Additional Analysis of Spatial Working Memory Data}{15}
+\contentsline {subsection}{\numberline {4.7}Additional Analysis of Classroom Effects}{17}
+\contentsline {subsection}{\numberline {4.8}Task Variability}{21}
+\contentsline {section}{References}{23}

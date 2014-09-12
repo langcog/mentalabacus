@@ -1,6 +1,6 @@
 rm(list=ls())
-source("~/Projects/R/mcf.useful.R")
-d <- read.csv("~/Projects/India Abacus/ZENITH/zenith full analysis/data/zenith all data complete cases.csv")
+source("~/Projects/R/Ranalysis/useful.R")
+d <- read.csv("~/Projects/Abacus/ZENITH/zenith full analysis/data/zenith all data complete cases.csv")
 
 library(MBESS)
 library(reshape2)
@@ -37,10 +37,26 @@ nes <- ddply(es, .(task),
              }
 )
 
-md <- aggregate(d ~ task, nes[nes$year>0,], mean)
+md <- ddply(nes[nes$year>0,], .(task), summarise, 
+            dm= mean(d))
 
-md[sort(md$d,decreasing=TRUE,index.return=TRUE)$ix,]
+md[sort(md$dm,decreasing=TRUE,index.return=TRUE)$ix,]
 
 qplot(year,d,colour=task,group=task,
       geom="line",
       data=nes)
+
+## compute variability of measures
+
+vars <- ddply(subset(mmd,task=="arith"|task=="woodcock"|task=="wiat"), 
+      .(task,year), summarise, 
+      sd = sd(score,na.rm=TRUE))
+        
+vars$task <- revalue(vars$task, c("arith"="Arithmetic","woodcock"="WJ-III",
+                                  "wiat"="WIAT"))
+
+quartz()
+qplot(year, sd, col=task, data=vars, geom="line") + 
+  xlab("Year") + 
+  ylab("Standard Deviation") + 
+  ylim(c(0,.2))

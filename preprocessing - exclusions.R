@@ -1,18 +1,20 @@
 rm(list=ls())
-source("~/Projects/R/mcf.useful.R")
-d <- read.csv("~/Projects/India Abacus/ZENITH/full analysis/data/zenith all data.csv")
+source("~/Projects/R/Ranalysis/useful.R")
+d <- read.csv("~/Projects/Abacus/ZENITH/mentalabacus/data/zenith all data.csv")
 
 ######## COMPUTE COMPLETE CASES (EG NO DROPOUT) ########
 # policy: use only complete cases (some data for all years)
-complete <- !is.na(d$ravens) | !is.na(d$wiat) | !is.na(d$verbalwm) | !is.na(d$arith)
-dropouts <- aggregate(complete ~ year + abacus, d, sum)
+d$completed <- !is.na(d$ravens) | !is.na(d$wiat) | !is.na(d$verbalwm) | !is.na(d$arith)
+dropouts <- ddply(d, .(year, abacus), summarise, 
+                  complete=sum(completed))
 
 # more kids leave in the abacus group
 qplot(year,complete,colour=factor(abacus),data=dropouts,
       geom="line",group=abacus) + ylim(c(0,104))
 
-complete.cases <- aggregate(complete ~ subnum,d,sum)
-complete.subnums <- complete.cases$subnum[complete.cases$complete==4]
+completed.cases <- ddply(d, .(subnum), summarise, 
+                         completed = sum(completed))
+complete.subnums <- completed.cases$subnum[completed.cases$completed==4]
 d <- subset(d,subnum %in% complete.subnums)
 
 ## exclusions on computer/2AFC tasks for those kids who didn't understand
@@ -93,4 +95,4 @@ pv.corrs <- data.frame(year=factor(c("0-1","1-2","2-3")),
 
 
 ## write out
-write.csv(d,"~/Projects/India Abacus/ZENITH/full analysis/data/zenith all data complete cases.csv",row.names=FALSE)
+write.csv(d,"~/Projects/Abacus/ZENITH/mentalabacus/data/zenith all data complete cases.csv",row.names=FALSE)

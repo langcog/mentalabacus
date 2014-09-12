@@ -1,17 +1,20 @@
 rm(list=ls())
 source("~/Projects/R/Ranalysis/useful.R")
 d <- read.csv("~/Projects/Abacus/ZENITH/mentalabacus/data/zenith all data complete cases.csv")
-d <- subset(d,abacus==TRUE)
 
-## MERGE IN ALL THE ABACUS DATA
-a1 <- read.csv("~/Projects/Abacus/ZENITH/mentalabacus/data/abacus/ZENITH 2011 abacus expts.csv")
-a1$year <- a1$year - 2010
-a2 <- read.csv("~/Projects/Abacus/ZENITH/zenith full analysis/data/abacus/ZENITH 2012 abacus expts.csv")
-a2$year <- a2$year - 2010
-a3 <- read.csv("~/Projects/Abacus/ZENITH/zenith full analysis/data/abacus/ZENITH 2013 abacus expts.csv")
-a3$year <- a3$year - 2010
+##
+split.var <- "spatialwm"
+hi.subs <- subset(unique(d$subnum),
+                  subset(d,year==0)[,split.var] > median(subset(d,year==0)[,split.var],na.rm=TRUE))
+d$hi.split <- d$subnum %in% hi.subs
 
-d <- merge(d,rbind(a1,a2,a3),by.x=c("subnum","year"),by.y=c("subnum","year"),all.x=TRUE,all.y=FALSE)
+
+qplot(wholegroupsums,  facets= abacus~year, fill=interaction(hi.split,abacus),
+      binwidth=.1, 
+      position="dodge",
+      data=subset(d,year==2 | year == 3))
+
+
 
 ## NOW DO INTERVENTION PLOT SPLIT
 split.var <- "mentalrot.shapes"

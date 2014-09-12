@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/MacPorts 2013_5) (format=pdflatex 2014.3.24)  12 SEP 2014 15:10
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/MacPorts 2013_5) (format=pdflatex 2014.3.24)  12 SEP 2014 15:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -325,62 +325,64 @@ File: figures/wj_by_ans.pdf Graphic file (type pdf)
 <use figures/wj_by_ans.pdf>
 Package pdftex.def Info: figures/wj_by_ans.pdf used on input line 451.
 (pdftex.def)             Requested size: 325.215pt x 205.396pt.
- [14 <./figures/wj_by_swm.pdf> <./figures/wj_by_ans.pdf>]
-File: figures/wj_by_ans.pdf Graphic file (type pdf)
- <use figures/wj_by_ans.pdf>
-Package pdftex.def Info: figures/wj_by_ans.pdf used on input line 461.
+ [14 <./figures/wj_by_swm.pdf> <./figures/wj_by_ans.pdf>] <figures/arith_by_vwm
+.pdf, id=90, 343.2825pt x 216.81pt>
+File: figures/arith_by_vwm.pdf Graphic file (type pdf)
+
+<use figures/arith_by_vwm.pdf>
+Package pdftex.def Info: figures/arith_by_vwm.pdf used on input line 461.
 (pdftex.def)             Requested size: 325.215pt x 205.396pt.
 
-<figures/swmdensities.pdf, id=90, 581.43008pt x 289.08pt>
+<figures/swmdensities.pdf, id=91, 581.43008pt x 289.08pt>
 File: figures/swmdensities.pdf Graphic file (type pdf)
 
 <use figures/swmdensities.pdf>
 Package pdftex.def Info: figures/swmdensities.pdf used on input line 473.
 (pdftex.def)             Requested size: 469.75499pt x 233.56244pt.
- [15]
-<figures/swm.pdf, id=94, 418.57741pt x 266.18909pt>
+ [15 <./figures/arith_by_vwm.pdf>]
+<figures/swm.pdf, id=102, 418.57741pt x 266.18909pt>
 File: figures/swm.pdf Graphic file (type pdf)
  <use figures/swm.pdf>
 Package pdftex.def Info: figures/swm.pdf used on input line 485.
 (pdftex.def)             Requested size: 325.215pt x 206.82242pt.
 
 [16 <./figures/swmdensities.pdf>]
-<figures/math1_class.pdf, id=950, 505.89pt x 505.89pt>
+<figures/math1_class.pdf, id=958, 505.89pt x 505.89pt>
 File: figures/math1_class.pdf Graphic file (type pdf)
 
 <use figures/math1_class.pdf>
 Package pdftex.def Info: figures/math1_class.pdf used on input line 499.
 (pdftex.def)             Requested size: 397.48499pt x 397.49504pt.
  [17 <./figures/swm.pdf>]
-<figures/math2_class.pdf, id=5560, 505.89pt x 505.89pt>
+<figures/math2_class.pdf, id=5568, 505.89pt x 505.89pt>
 File: figures/math2_class.pdf Graphic file (type pdf)
 
 <use figures/math2_class.pdf>
 Package pdftex.def Info: figures/math2_class.pdf used on input line 507.
 (pdftex.def)             Requested size: 397.48499pt x 397.49504pt.
  [18 <./figures/math1_class.pdf>]
-<figures/cog1_class.pdf, id=5676, 505.89pt x 505.89pt>
+<figures/cog1_class.pdf, id=5684, 505.89pt x 505.89pt>
 File: figures/cog1_class.pdf Graphic file (type pdf)
 
 <use figures/cog1_class.pdf>
 Package pdftex.def Info: figures/cog1_class.pdf used on input line 516.
 (pdftex.def)             Requested size: 397.48499pt x 397.49504pt.
  [19 <./figures/math2_class.pdf>]
-<figures/cog2_class.pdf, id=5785, 505.89pt x 505.89pt>
+<figures/cog2_class.pdf, id=5793, 505.89pt x 505.89pt>
 File: figures/cog2_class.pdf Graphic file (type pdf)
 
 <use figures/cog2_class.pdf>
 Package pdftex.def Info: figures/cog2_class.pdf used on input line 525.
 (pdftex.def)             Requested size: 397.48499pt x 397.49504pt.
  [20 <./figures/cog1_class.pdf>]
-<figures/abacus_class.pdf, id=5885, 402.88077pt x 432.96594pt>
+<figures/abacus_class.pdf, id=5893, 402.88077pt x 432.96594pt>
 File: figures/abacus_class.pdf Graphic file (type pdf)
 
 <use figures/abacus_class.pdf>
 Package pdftex.def Info: figures/abacus_class.pdf used on input line 537.
 (pdftex.def)             Requested size: 325.215pt x 349.4981pt.
  [21 <./figures/cog2_class.pdf>]
-<figures/SDs.pdf, id=5992, 409.42097pt x 253.76256pt>
+<figures/SDs.pdf, id=6001, 409.42097pt x 253.76256pt>
 File: figures/SDs.pdf Graphic file (type pdf)
  <use figures/SDs.pdf>
 Package pdftex.def Info: figures/SDs.pdf used on input line 552.
@@ -393,10 +395,10 @@ Missing character: There is no ƒ in font cmr10!
  [24]
 (./si.aux) ) 
 Here is how much of TeX's memory you used:
- 3190 strings out of 495035
- 43465 string characters out of 6181625
+ 3195 strings out of 495035
+ 43596 string characters out of 6181625
  119624 words of memory out of 5000000
- 6347 multiletter control sequences out of 15000+600000
+ 6351 multiletter control sequences out of 15000+600000
  10223 words of font info for 37 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,9n,28p,958b,258s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -411,10 +413,10 @@ live/fonts/type1/public/amsfonts/cm/cmr8.pfb></opt/local/share/texmf-texlive/fo
 nts/type1/public/amsfonts/cm/cmsy10.pfb></opt/local/share/texmf-texlive/fonts/t
 ype1/public/amsfonts/cm/cmti10.pfb></opt/local/share/texmf-texlive/fonts/type1/
 public/amsfonts/cm/cmtt10.pfb>
-Output written on si.pdf (24 pages, 2534054 bytes).
+Output written on si.pdf (24 pages, 2538507 bytes).
 PDF statistics:
- 6254 PDF objects out of 7423 (max. 8388607)
- 3253 compressed objects within 33 object streams
+ 6262 PDF objects out of 7423 (max. 8388607)
+ 3259 compressed objects within 33 object streams
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

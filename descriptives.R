@@ -11,7 +11,7 @@ cohen.d <- function (x,xdata) {
 }
 
 ## read data
-d <- read.csv("~/Projects/India Abacus/ZENITH/zenith full analysis/data/zenith all data complete cases.csv")
+d <- read.csv("data/zenith all data complete cases.csv")
 
 ## effect sizes
 tasks <- c("arith","placeval","commute","wiat","woodcock",
@@ -48,6 +48,22 @@ for (y in 0:3) {
                     d$wiat[d$year==y])))
 }
 
+
+
+wiat <- rcorr(cbind(d$wiat[d$year==0],
+                  d$wiat[d$year==1],
+                  d$wiat[d$year==2],
+                  d$wiat[d$year==3]))
+
+arith <- rcorr(cbind(d$arith[d$year==0],
+                  d$arith[d$year==1],
+                  d$arith[d$year==2],
+                  d$arith[d$year==3]))
+
+wj <- rcorr(cbind(d$woodcock[d$year==0],
+                  d$woodcock[d$year==1],
+                  d$woodcock[d$year==2],
+                  d$woodcock[d$year==3]))
 
 ### pretty print
 library(Hmisc)

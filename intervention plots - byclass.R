@@ -1,6 +1,6 @@
 rm(list=ls())
 source("~/Projects/R/Ranalysis/useful.R")
-d <- read.csv("~/Projects/Abacus/ZENITH/mentalabacus/data/zenith all data complete cases.csv")
+d <- read.csv("data/zenith all data complete cases.csv")
 
 ## FULL INTERVENTION PLOT
 tasks <- list()

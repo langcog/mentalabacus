@@ -1,10 +1,9 @@
 rm(list=ls())
 library(memisc)
-library(texreg)
-source("~/Projects/R/mcf.useful.R")
-source("~/Projects/India Abacus/ZENITH/mentalabacus/mtable-lme4.R")
+source("~/Projects/R/Ranalysis/useful.R")
+# source("mtable-lme4.R")
 
-d <- read.csv("~/Projects/India Abacus/ZENITH/zenith full analysis/data/zenith all data complete cases.csv")
+d <- read.csv("data/zenith all data complete cases.csv")
 
 ## REGRESSION MODELS BY TASK
 tasks <- c("wiat","woodcock","arith","placeval",

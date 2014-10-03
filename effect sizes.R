@@ -1,6 +1,6 @@
 rm(list=ls())
 source("~/Projects/R/Ranalysis/useful.R")
-d <- read.csv("~/Projects/Abacus/ZENITH/zenith full analysis/data/zenith all data complete cases.csv")
+d <- read.csv("data/zenith all data complete cases.csv")
 
 library(MBESS)
 library(reshape2)
@@ -30,6 +30,8 @@ es <- ddply(mmd, .(task,year),
                                 ci.h=ci$Upper.Conf.Limit.smd))
             })
 
+### NOTE: ES is the dataframe reported in the ms.
+
 nes <- ddply(es, .(task), 
              function(x) {
                x$d <- x$d - x$d[x$year==0]
@@ -50,7 +52,9 @@ qplot(year,d,colour=task,group=task,
 
 vars <- ddply(subset(mmd,task=="arith"|task=="woodcock"|task=="wiat"), 
       .(task,year), summarise, 
-      sd = sd(score,na.rm=TRUE))
+      sd = sd(score,na.rm=TRUE),
+      min = min(score,na.rm=TRUE),
+      max = max(score,na.rm=TRUE))
         
 vars$task <- revalue(vars$task, c("arith"="Arithmetic","woodcock"="WJ-III",
                                   "wiat"="WIAT"))

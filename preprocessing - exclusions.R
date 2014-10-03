@@ -1,6 +1,6 @@
 rm(list=ls())
 source("~/Projects/R/Ranalysis/useful.R")
-d <- read.csv("~/Projects/Abacus/ZENITH/mentalabacus/data/zenith all data.csv")
+d <- read.csv("data/zenith all data.csv")
 
 ######## COMPUTE COMPLETE CASES (EG NO DROPOUT) ########
 # policy: use only complete cases (some data for all years)
@@ -95,4 +95,4 @@ pv.corrs <- data.frame(year=factor(c("0-1","1-2","2-3")),
 
 
 ## write out
-write.csv(d,"~/Projects/Abacus/ZENITH/mentalabacus/data/zenith all data complete cases.csv",row.names=FALSE)
+write.csv(d,"data/zenith all data complete cases.csv",row.names=FALSE)

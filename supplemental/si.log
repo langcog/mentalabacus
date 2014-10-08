@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/MacPorts 2013_5) (format=pdflatex 2014.3.24)  3 OCT 2014 15:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/MacPorts 2013_5) (format=pdflatex 2014.3.24)  8 OCT 2014 10:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -298,7 +298,7 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
 
-[4] [5] [6] [7] [8] [9] [10] <figures/grades.pdf, id=45, 542.025pt x 289.08pt>
+[4] [5] [6] [7] [8] [9] [10] <figures/grades.pdf, id=43, 542.025pt x 289.08pt>
 File: figures/grades.pdf Graphic file (type pdf)
 
 <use figures/grades.pdf>
@@ -386,27 +386,31 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no É in font cmr10!
  [23]
-(./si.aux) ) 
+(./si.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
  3189 strings out of 495035
  43444 string characters out of 6181625
- 119614 words of memory out of 5000000
+ 118614 words of memory out of 5000000
  6346 multiletter control sequences out of 15000+600000
  10223 words of font info for 37 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,9n,28p,958b,258s stack positions out of 5000i,500n,10000p,200000b,80000s
-</opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx
-10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pf
-b></opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></o
-pt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></opt/loc
-al/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/local/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></opt/local/share/tex
-mf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></opt/local/share/texmf-tex
-live/fonts/type1/public/amsfonts/cm/cmr8.pfb></opt/local/share/texmf-texlive/fo
-nts/type1/public/amsfonts/cm/cmsy10.pfb></opt/local/share/texmf-texlive/fonts/t
-ype1/public/amsfonts/cm/cmti10.pfb></opt/local/share/texmf-texlive/fonts/type1/
-public/amsfonts/cm/cmtt10.pfb>
-Output written on si.pdf (23 pages, 2545781 bytes).
+</opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></o
+pt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/lo
+cal/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/local/s
+hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></opt/local/share/t
+exmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/local/share/texmf-t
+exlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></opt/local/share/texmf-texlive
+/fonts/type1/public/amsfonts/cm/cmr17.pfb></opt/local/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmr8.pfb></opt/local/share/texmf-texlive/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb></opt/local/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmti10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/ams
+fonts/cm/cmtt10.pfb>
+Output written on si.pdf (23 pages, 2545736 bytes).
 PDF statistics:
  6284 PDF objects out of 7423 (max. 8388607)
  3284 compressed objects within 33 object streams

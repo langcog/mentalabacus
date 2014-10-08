@@ -23,7 +23,7 @@
 \contentsline {subsubsection}{\numberline {1.4.4}Number Estimation}{8}
 \contentsline {section}{\numberline {2}Data Management}{8}
 \contentsline {subsection}{\numberline {2.1}Exclusions}{8}
-\contentsline {subsection}{\numberline {2.2}Data Entry}{8}
+\contentsline {subsection}{\numberline {2.2}Data Entry}{9}
 \contentsline {subsection}{\numberline {2.3}Scoring}{9}
 \contentsline {section}{\numberline {3}Descriptive Statistics}{9}
 \contentsline {section}{\numberline {4}Data Analysis}{10}

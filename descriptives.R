@@ -64,6 +64,9 @@ wj <- rcorr(cbind(d$woodcock[d$year==0],
                   d$woodcock[d$year==1],
                   d$woodcock[d$year==2],
                   d$woodcock[d$year==3]))
+mean(wiat$r[wiat$r!=1])
+mean(wj$r[wj$r!=1])
+mean(arith$r[arith$r!=1])
 
 ### pretty print
 library(Hmisc)

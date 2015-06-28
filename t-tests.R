@@ -1,6 +1,6 @@
 rm(list=ls())
 source("~/Projects/R/mcf.useful.R")
-d <- read.csv("~/Projects/India Abacus/ZENITH/zenith full analysis/data/zenith all data complete cases.csv")
+d <- read.csv("~/Projects/Abacus/ZENITH/zenith full analysis/data/zenith all data complete cases.csv")
 
 ## T-TESTS BY TASK
 tasks <- c("wiat","woodcock","arith","placeval",

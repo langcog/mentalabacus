@@ -62,3 +62,26 @@ for (t in tasks) {
   print(anova(m1,m2))
 }
 
+
+#### FOLLOWUP FOR PLACEVALUE ####
+
+md <- melt(d, 
+           id.vars=c("subnum","year","condition","female","age"), 
+           measure.vars="placeval")
+
+m1 <- lmer(value ~ year * condition + (year | subnum),
+           data=subset(md, year > 0))
+m2 <- lmer(value ~ year + condition + (year  | subnum),
+           data=subset(md, year > 0))
+
+anova(m1,m2)
+
+# note that quadratic models don't converge without year 0
+md$fyear <- factor(md$year)
+
+m1 <- lmer(value ~ fyear * condition + (1 | subnum),
+           data=subset(md, year > 0))
+m2 <- lmer(value ~ fyear + condition + (1 | subnum),
+           data=subset(md, year > 0))
+
+anova(m1,m2)

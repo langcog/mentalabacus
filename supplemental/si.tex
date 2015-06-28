@@ -18,7 +18,8 @@
 }
 
 \title{Learning Mathematics in a Visuospatial Format\\ Supplemental Online Material}
-\author{David Barner, George A. Alvarez, Jessica Sullivan, Neon Brooks, \\ Mahesh Srinivasan, and Michael C. Frank} 
+\author{BLINDED}
+% \author{David Barner, George A. Alvarez, Jessica Sullivan, Neon Brooks, \\ Mahesh Srinivasan, and Michael C. Frank} 
 \date{}
 
 \begin{document}
@@ -578,6 +579,37 @@ We speculate that one reason our arithmetic measure might have shown larger inte
 
 Two pieces of evidence provide partial support for this intuition. First, we show in Figure \ref{fig:sds} an analysis of the standard deviation of participants' performance on each of the three math measures that include arithmetic problems (Arithmetic, WIAT, and WJ-III). All scores were in the 0 -- 1 interval.  On this measure, the WJ-III shows less variability than the other two measures. A second piece of evidence comes from the year-to-year correlations between students' performance. Across the three measures, the arithmetic measure had the highest average year-to-year correlation across all pairs of measurements ($r = .56$, compared with .47 and .50 for the WJ-III and WIAT, respectively). 
 
+\subsection{Randomization Analysis and Propensity Score Matching}
+
+As noted in the main text, despite randomization of students to classrooms, we nevertheless observed some differences between groups at initiation of the study. Pairwise tests on all measures are given in Table \ref{tab:pairwise}. We note that these $p$ values are uncorrected for multiple comparisons; using a standard Bonferroni correction, none would be considered significant at the .05 level. 
+
+% latex table generated in R 3.1.2 by xtable 1.7-4 package
+% Sun Jun 28 19:02:07 2015
+\begin{table}[ht]
+\centering
+\caption{\label{tab:pairwise} Pairwise $t$-tests of Year 0 performance across tasks).}
+\begin{tabular}{lrrrr}
+  \hline
+measure & $M_{MA}$ & $M_{Control}$ & $t$ & $p$ \\ 
+  \hline
+WIAT & 0.16 & 0.14 & 2.08 & 0.04 \\ 
+WJ-III & 0.23 & 0.24 & -1.21 & 0.23 \\ 
+Arithmetic & 0.16 & 0.13 & 2.65 & 0.01 \\ 
+Place Value & 0.31 & 0.29 & 0.93 & 0.36 \\ 
+Raven's & 0.56 & 0.49 & 2.10 & 0.04 \\ 
+ANS & 0.35 & 0.38 & -1.36 & 0.18 \\ 
+Spatial WM & 2.83 & 2.68 & 0.98 & 0.33 \\ 
+Verbal WM & 2.89 & 2.82 & 0.51 & 0.61 \\ 
+Mental Rotation & 0.30 & 0.27 & 1.23 & 0.22 \\ 
+   \hline
+\end{tabular}
+\end{table}
+
+For this reason, we pursued a statistical approach to equate the groups for further analysis, known as propensity score matching \cite{rosenbaum1983,sekhon2008}. This technique is commonly used for observational studies rather than intervention studies like ours, but can also be applied as a method for controlling differences between groups. In brief, propensity score matching is performed via two steps. First, using logistic regression, a ``propensity score'' is constructed. This score estimates the probability that participants will find themselves in one group or the other, on the basis of predictor variables (in our case, mathematical ability factors, e.g. arithmetic, WIAT, WJ-III, and place value scores). Second, an artificial control group for the study is resampled with replacement from the real control group so as to equate the propensity score for both groups. Once this pseudo-control group is constructed, the original statistical analyses can be done comparing them to the intervention group. 
+
+In practice, we used the \texttt{Matching} package for R \cite{sekhon2008} to construct 1000 propensity-matched control groups with replacement and random tie-breaking, using the propensity score variables above. Results did not differ substantially if we used subsets of these propensity score variables. We then ran our same longitudinal model comparison analyses (using linear growth models) on each resampled control group. 
+
+The propensity score matching approach yielded consistently significant intervention by time results for the arithmetic measure ($p_{avg} = .002$) but failed to yield significant results for the other math measures (all $p$s $>.33$). $t$-tests of Year 3 performance on these propensity-matched groups yielded the same basic result. We interpret these findings with caution, however, as using propensity score matching \emph{after} randomization is a very conservative procedure. In practice, ``unhappy'' randomization can certainly occur but given the number of comparisons in Table \ref{tab:pairwise}, we may be over-correcting and reducing statistical power by inflating the mathematics competence of our artificial control groups. 
 
 \newpage
 \bibliographystyle{apacite}

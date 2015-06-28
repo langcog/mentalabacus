@@ -11,7 +11,10 @@ a2$year <- a2$year - 2010
 a3 <- read.csv("data/abacus/2013_AbacusOnlypaperTask.csv")
 a3$year <- a3$year - 2010
 
-d <- merge(d,rbind(a1,a2,a3),by.x=c("subnum","year"),by.y=c("subnum","year"),all.x=TRUE,all.y=FALSE)
+d <- merge(d, rbind(a1,a2,a3),
+           by.x=c("subnum","year"),
+           by.y=c("subnum","year"),
+           all.x=TRUE, all.y=FALSE)
 
 ## NOW DO INTERVENTION PLOT SPLIT
 split.var <- "spatialwm"
@@ -98,6 +101,18 @@ cor.test(subset(d, year==2 & condition=="abacus")$abacus.sums,
 cor.test(subset(d, year==3 & condition=="abacus")$abacus.sums,
          subset(d, year==3 & condition=="abacus")$arith)
 
+
+### MA uptake as a mediator of longitudinal growth
+
+md <- melt(d, 
+           id.vars=c("subnum","year","condition","female","age"), 
+           measure.vars=c("placeval","abacus.flashcards"))
+
+
+m1 <- lmer(value ~ year * condition + (year | subnum),
+           data=subset(md, year > 0))
+m2 <- lmer(value ~ year + condition + (year  | subnum),
+           data=subset(md, year > 0))
 
 cor.test(subset(d, year==1 & condition=="abacus")$abacus.sums,
          subset(d, year==1 & condition=="abacus")$wiat)

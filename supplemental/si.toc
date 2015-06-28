@@ -34,4 +34,5 @@
 \contentsline {subsection}{\numberline {4.5}Additional Analysis of Spatial Working Memory Data}{14}
 \contentsline {subsection}{\numberline {4.6}Additional Analysis of Classroom Effects}{16}
 \contentsline {subsection}{\numberline {4.7}Task Variability}{21}
-\contentsline {section}{References}{23}
+\contentsline {subsection}{\numberline {4.8}Randomization Analysis and Propensity Score Matching}{22}
+\contentsline {section}{References}{24}

@@ -189,7 +189,7 @@ This task consisted of 22 problems, and one example problem. For each problem, 6
 
 \subsubsection{Number Estimation}
 
-In this task, participants viewed randomly generated arrays of dots, and had to guess how many dots they saw. They received no feedback, and completed as many trials as they could in 5 minutes. This task was not included in our main study, as it was only tested in Years 1 -- 3. Without baseline data from Year 0, it was not possible to include this task in our main analyses.
+In this task, participants viewed randomly generated arrays of dots, and had to guess how many dots they saw. They received no feedback, and completed as many trials as they could in 10 minutes. This task was not included in our main study, as it was only tested in Years 1 -- 3. Without baseline data from Year 0, it was not possible to include this task in our main analyses.
 
 \section{Data Management}
 
@@ -587,7 +587,7 @@ As noted in the main text, despite randomization of students to classrooms, we n
 % Sun Jun 28 19:02:07 2015
 \begin{table}[ht]
 \centering
-\caption{\label{tab:pairwise} Pairwise $t$-tests of Year 0 performance across tasks).}
+\caption{\label{tab:pairwise} Pairwise $t$-tests of Year 0 performance across tasks.}
 \begin{tabular}{lrrrr}
   \hline
 measure & $M_{MA}$ & $M_{Control}$ & $t$ & $p$ \\ 
@@ -609,7 +609,7 @@ For this reason, we pursued a statistical approach to equate the groups for furt
 
 In practice, we used the \texttt{Matching} package for R \cite{sekhon2008} to construct 1000 propensity-matched control groups with replacement and random tie-breaking, using the propensity score variables above. Results did not differ substantially if we used subsets of these propensity score variables. We then ran our same longitudinal model comparison analyses (using linear growth models) on each resampled control group. 
 
-The propensity score matching approach yielded consistently significant intervention by time results for the arithmetic measure ($p_{avg} = .002$) but failed to yield significant results for the other math measures (all $p$s $>.33$). $t$-tests of Year 3 performance on these propensity-matched groups yielded the same basic result. We interpret these findings with caution, however, as using propensity score matching \emph{after} randomization is a very conservative procedure. In practice, ``unhappy'' randomization can certainly occur but given the number of comparisons in Table \ref{tab:pairwise}, we may be over-correcting and reducing statistical power by inflating the mathematics competence of our artificial control groups. 
+The propensity score matching approach yielded consistently significant intervention by time results for the arithmetic measure ($p_{avg} = .002$) but failed to yield significant results for the other math measures (all $p$s $>.33$). $t$-tests of Year 3 performance on these propensity-matched groups yielded the same pattern of significance as the longitudinal models. We interpret these findings with caution, however, as using propensity score matching \emph{after} randomization is a very conservative procedure. In practice, ``unhappy'' randomization can certainly occur but given the number of comparisons in Table \ref{tab:pairwise}, we may be over-correcting and reducing statistical power by inflating the mathematics competence of our artificial control groups. 
 
 \newpage
 \bibliographystyle{apacite}

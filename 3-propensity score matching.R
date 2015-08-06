@@ -1,13 +1,12 @@
 ### propensity score matching
 rm(list=ls())
+source("helper/useful.R")
+d <- read.csv("data/zenith all data complete cases.csv")
+
 library(broom)
 library(dplyr)
 library(tidyr)
 library(Matching)
-library(lme4)
-
-source("~/Projects/R/Ranalysis/useful.R")
-d <- read.csv("~/Projects/Abacus/ZENITH/mentalabacus/data/zenith all data complete cases.csv")
 
 # select y0 data
 y0 <- filter(d, year == 0) %>% 
